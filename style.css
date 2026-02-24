@@ -1,0 +1,131 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+.nav-menu {
+    height: 100px;
+    background-color: #000;
+    display: flex;
+    justify-content: start;
+    width: 100%;
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    z-index: 1000;
+}
+
+.nav-logo {
+    background-image: url("Rayans.png");
+    background-size: cover;
+    width: 250px;
+    height: 100px;
+}
+
+.nav-search {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-left: 100px;
+}
+
+input {
+    padding: 14px;
+    width: 480px;
+    border-top-left-radius: 10px;
+    border-bottom-left-radius: 10px;
+}
+
+.btn-search {
+    padding: 14px 20px;
+    border-top-right-radius: 10px;
+    border-bottom-right-radius: 10px;
+    background-color: #72BF44;
+
+}
+
+i {
+    font-size: 15px;
+    color: white;
+    border: none;
+}
+
+.nav-select {
+    padding: 12px;
+    width: 200px;
+    margin-left: 20px;
+    border-radius: 10px;
+    background-color: black;
+    color: #fff;
+    border: 2px solid #72BF44;
+    color: yellow;
+    font-weight: bold;
+    font-size: 16px;
+}
+
+.nav-icon {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-left: 90px;
+    width: 200px;
+
+}
+
+.btn-icon {
+    padding: 12px 20px;
+    height: 70px;
+    width: 70px;
+    border: none;
+    background-color: black;
+
+}
+
+.btn-icon i {
+    font-size: 20px;
+    color: white;
+}
+
+.nav-info {
+    height: 50px;
+    background-color: black;
+    width: 100%;
+    margin-top: 90px;
+
+}
+
+#menu li {
+    display: inline-block;
+    margin: 20px;
+    color: white;
+    font-weight: bold;
+}
+
+.body-image {
+    height: 470px;
+    width: 95%;
+    background-color: #72BF44;
+    margin: 10px auto;
+    background-image: url("image.png");
+    background-size: cover;
+  
+
+}
+
+h2 {
+    margin-left: 34px;
+    margin-top: 20px;
+
+}
+
+.info {
+    height: 200px;
+    width: 1000px;
+    background-color: blanchedalmond;
+    margin-left: 34px;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    overflow: scroll;
+    max-width: 1200px;
+}
