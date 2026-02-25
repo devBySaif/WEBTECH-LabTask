@@ -1,0 +1,150 @@
+*
+{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+
+}
+
+body
+{
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    font-size: 14px;
+    background: lightgrey;
+
+}
+.c1
+{
+    background: white;
+    max-width: 40%;
+    padding: 25px;
+    margin: 50px auto 0;
+    border: 5px solid #054579;
+    border-top: 5px solid rgb(7, 49, 116);
+    box-shadow: 0 0 5px 7px rgba(0,0,0,0.5) ;
+    position: relative; 
+    z-index: 1;
+    overflow: hidden;
+
+
+}
+
+#name
+{
+   background-color: #e9f0ff;
+}
+#username
+{
+    background-color: #e9f0ff;
+}
+#email
+{
+    background-color: #e9f0ff;
+}
+#password
+{
+    background-color: #e9f0ff;
+}
+
+
+
+.reg
+{
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 15px; 
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    display: inline-block; 
+}
+
+.c1 h2{
+    font-size: 24px;
+    color:#01512c;
+    line-height: 24px;
+    padding: 24px;
+    text-align: center;
+}
+.c1 h3
+{
+     font-size: 15px;
+     line-height: 10px;
+     padding: 10px;
+     text-align: center;
+}
+p.add {
+    font-size: 14px;
+    color: #555;
+    margin-bottom: 20px;
+    text-align: center;
+}
+
+.p
+{
+    font-size: 20px;
+    line-height:20px ;
+    padding: 24px;
+    text-align: center;
+}
+
+.in1
+{
+    width: 90%;
+    position: relative;
+    margin: 20px auto;
+    padding: 5px;
+    border-radius: 2px;
+    display: grid; 
+   
+}
+
+    
+
+.in2
+{
+    width: 90%;
+    position: relative;
+    margin: 20px auto;
+   
+}
+
+.name
+{
+    width: 45%;
+    padding :8px 0 8px 40px;
+
+}
+
+.email
+{
+    width: 100%;
+    padding :8px;
+}
+.password
+{
+    border: 1px solid;
+    outline:none;
+}
+button {
+    width: 100%;
+    padding: 12px;
+    background-color: #2470bc;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    display: inline-block; 
+    transition: background-color 0.3s;
+}
+
+button:hover {
+    background-color: #01512c;
+}
+.reg
+{
+  display: block;
+}
+input{
+    padding: 7px;
+    
+}
